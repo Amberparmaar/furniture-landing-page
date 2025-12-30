@@ -8,6 +8,10 @@
   text-decoration: none;
   font-family: "Raleway", sans-serif;
 }
+body {
+  padding-top: 100px;
+}
+
 :root {
   --bg1color: #f0f1ea;
   --textcolor: #053634;
@@ -17,11 +21,6 @@ h1,
 h3,h5 {
   font-family: "Playfair Display", serif;
   text-transform: capitalize;
-}
-
-.text {
-  color: var(--textcolor);
-  width: 50%;
 }
 
 .shapetri {
