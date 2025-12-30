@@ -8,20 +8,20 @@
   text-decoration: none;
   font-family: "Raleway", sans-serif;
 }
-h1,
-h3 {
-  font-family: "Playfair Display", serif;
-  text-transform: capitalize;
-}
 :root {
   --bg1color: #f0f1ea;
   --textcolor: #053634;
   --shape: #ebb017;
 }
+h1,
+h3,h5 {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+
 .text {
   color: var(--textcolor);
-  width: 45%;
-  position: relative;
+  width: 50%;
 }
 
 .shapetri {
@@ -30,7 +30,31 @@ h3 {
   position: absolute;
   left: 0;
   bottom: 0;
-
   background-color: var(--shape);
   border-radius: 2% 98% 100% 0% / 90% 100% 0% 10%;
+  z-index: -1;
 }
+.card{
+  background-color: #f8f6f1;
+  border: none;
+
+}
+.btn1, .btn2{
+  width: 120px;
+  background-color: var(--textcolor);
+  color: white;  
+}
+.input-group input {
+  width: 100%;
+  padding: 15px 15px 15px 10px;
+}
+.input-group input:focus{
+  box-shadow: none;
+  border: 1px solid #053634;
+}
+footer li{
+  margin-top: 20px;
+}
+
+
+

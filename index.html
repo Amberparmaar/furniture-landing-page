@@ -19,15 +19,15 @@
 
 <body style="background-color:#f8f6f1;">
   <!-- navbar start -->
-  <nav class="container-xxl navbar navbar-expand-lg" style="background-color: var(--bg1color);">
-    <div class="container-fluid">
+  <nav class="container-xxl navbar navbar-expand-lg p-4" style="background-color: var(--bg1color);">
+    <div class="container-xxl">
       <img src="./assets/logo.png" alt="logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav py-4 ms-auto mb-2 mb-lg-0 gap-5">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -40,27 +40,27 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">About<span class="badge text-bg-dark ms-2">Pro</span></a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Style</a></li>
+              <li><a class="dropdown-item" href="#">Style<span class="badge text-bg-dark ms-2">Pro</span></a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Blog<span class="badge text-bg-dark ms-2">Pro</span></a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#">Portfolio<span class="badge text-bg-dark ms-2">Pro</span></a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Post single</a></li>
+              <li><a class="dropdown-item" href="#">Post single<span class="badge text-bg-dark ms-2">Pro</span></a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Contact<span class="badge text-bg-dark ms-2">Pro</span></a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -72,7 +72,7 @@
 
 
         </ul>
-        <div class="gap-5">
+        <div class="gap-4">
           <button type="button" class="btn fw-bold border border-0">Get Pro</button>
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
@@ -81,16 +81,15 @@
   </nav>
   <!-- navbar end -->
   <!-- hero start -->
-  <section style="background-color: #f0f1ea;"
+  <section style="background-color: #f0f1ea; position: relative;"
     class="container-xxl d-lg-flex justify-content-center align-items-center ">
-    <div class="text p-5 lh-lg">
+    <div class="text lh-lg py-3 ">
       <h1 class="display-3 fw-bold">Nautical Modren Style</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam aliquid deleniti ad esse reprehenderit,
         eaque odio consequatur.</p>
       <button type="button" class="btn btn-outline-secondary rounded-0">VIEW PROJECT <i
           class="fa-solid fa-arrow-right"></i></button>
-
-      <div class="shapetri"></div>
+      <div class="shapetri z-1"></div>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
@@ -133,10 +132,10 @@
 
   <!-- about start -->
 
-  <section class="container-xxl d-lg-flex justify-content-center align-items-center ">
+  <section class="container-xxl d-lg-flex justify-content-center align-items-center">
     <div><img class="img-fluid" src="./assets/section-image.png" alt="section-img"></div>
     <div class="text p-5 lh-lg">
-      <h1 class="display-3 fw-bold">About Me</h1>
+      <h1 class="display-3 fw-bold position-relative"><div class="shapetri rounded-pill"></div>About Me</h1>
       <h4>"Everything is designed. Few things are designed well."</h4>
       <p>A pellentesque pretium feugiat vel morbi sagittis lorem habitasse cursus. Suspendisse tempus rhoncus enim
         pellentesque est in neque, elit mattis vehicula vitae eget. Viverra imperdiet felis sollicitudin tesque cursus
@@ -158,7 +157,7 @@
   <section style="background-color: #f0f1ea;"
     class="container-xxl d-lg-flex justify-content-center align-items-center my-5 py-5 ">
     <div class="text p-5 lh-lg">
-      <h1 class="display-3 fw-bold">Services</h1>
+      <h1 class="display-3 fw-bold position-relative z-1"><div class="shapetri rounded-pill"></div>Services</h1>
       <h4 class="my-4">"Some of my capabilities for your solutions."</h4>
       <p>Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec eget facilisis. Quis nibh ut
         bibendum nisl quis placerat proin tortor. Mattis in neque.
@@ -185,7 +184,7 @@
 
   <!-- portfolio start -->
   <div class="container-xxl text py-5 lh-lg mx-auto">
-    <h1 class="display-3 fw-bold">MY Portfolios</h1>
+   <h1 class="display-3 fw-bold position-relative"><div class="shapetri rounded-pill"></div>My Portfolios</h1>
     <h5>Designed with my knowledge, skills and passion.</h5>
   </div>
   <section>
@@ -221,6 +220,148 @@
         ALL WORK</button></div>
   </section>
   <!-- portfolio end -->
+  <!-- testimonals start -->
+  <section class="container-xxl" style="background-color: #f0f1ea;">
+<h1 class="display-3 fw-bold position-relative z-1 pt-5"><div class="shapetri rounded-pill"></div>Testimonals</h1>
+    <h4 class="my-4 ps-5">What my Client Says</h4>
+    <div class="py-5">
+      <div class="row py-5">
+        <div class="col">
+          <div class="card text-center mb-3" style="width: 22rem;">
+            <div class="card-body">
+              <p class="card-text">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen
+                dise tempus oncus enim pellen tesque est in neque, elit habi mattis.”</p>
+              <h5 class="card-title">Jimmy Smith</h5>
+              <p>KG Architects</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center mb-3" style="width: 22rem;">
+            <div class="card-body">
+              <p class="card-text">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen
+                dise tempus oncus enim pellen tesque est in neque, elit habi mattis.”</p>
+              <h5 class="card-title">Kelly smith</h5>
+              <p>KG Architects</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center mb-3" style="width: 22rem;">
+            <div class="card-body">
+              <p class="card-text">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen
+                dise tempus oncus enim pellen tesque est in neque, elit habi mattis.”</p>
+              <h5 class="card-title">Jimmy Patrik</h5>
+              <p>KG Architects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonals end -->
+  <!-- newsletter start -->
+
+  <section class="container-xxl d-lg-flex justify-content-center align-items-center ">
+    <div><img class="img-fluid" src="./assets/room.jpg" alt="room-img"></div>
+    <div class="text p-5 lh-lg">
+      <h1 class="display-3 fw-bold position-relative"><div class="shapetri rounded-pill"></div>Newsletter</h1>
+
+      <p class="py-5">A pellentesque pretium feugiat vel morbi sagittis lorem habitasse cursus. Suspendisse tempus
+        rhoncus enim
+        pellentesque est in neque, elit mattis vehicula vitae eget. Viverra imperdiet felis sollicitudin tesque cursus
+        sit.</p>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="YOUR EMAIL ADDRESS">
+        <button class="btn1" type="button" id="button-addon2">SUBMIT <i
+            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+      </div>
+
+
+    </div>
+
+
+  </section>
+  <!-- newsletter end -->
+
+  <!-- blog start -->
+
+  <section>
+    <div class="container-xxl text py-5 lh-lg mx-auto">
+<h1 class="display-3 fw-bold position-relative"><div class="shapetri rounded-pill"></div>Blog Articles</h1>
+      <h5 class="py-4">Read some latest blog articles posts.</h5>
+    </div>
+    <div class="container-xxl d-flex gx-1">
+      <div class="row">
+        <div class="col">
+          <img src="./assets/post-img1.jpg" alt="post1" width="400" height="300">
+          <p>16 Feb, 2021</p>
+          <h3>minimalism is always good for interior design</h3>
+        </div>
+        <div class="col">
+          <img src="./assets/post-img2.jpg" alt="post2" width="400" height="300">
+          <p>16 Feb, 2021</p>
+          <h3>minimalism is always good for interior design</h3>
+        </div>
+        <div class="col">
+          <img src="./assets/post-img3.jpg" alt="post3" width="400" height="300">
+          <p>16 Feb, 2021</p>
+          <h3>minimalism is always good for interior design</h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- blog end -->
+  <!-- contact start -->
+  <section style="background-color: #f0f1ea;"
+    class="container-xxl d-lg-flex justify-content-center align-items-center my-5 py-5 ">
+    <div class=" p-5 lh-lg">
+      <h1 class="display-3 fw-bold">Feel Free to Contact Me</h1>
+      <p>If you have any projects in mind say hello at contact@example.com or just call me at +111 1234 2344 1232.</p>
+    </div>
+    <div>
+      <button type="button" class="btn2 py-2 rounded-0">CONTACT ME</button>
+    </div>
+  </section>
+  <!-- contact end -->
+   <!-- footer start -->
+    <footer class="container-xxl d-flex justify-content-between p-5">
+      <div class="ps-3"><img src="./assets/logo.png" alt="logo"><p>Feugiat hac porttitor sem dictum velit, elementum <br> odio. Sed ipsum quis nec eget facilisis quis nibh ut bibendum.</p></div>
+      <div><h5>Quick Links</h5>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Styles</li>
+          <li>Blogs</li>
+        </ul>
+      </div>
+      <div><h5 class="ms-5">Services</h5>
+         <ul>
+          <li>Residential</li>
+          <li>Commercial & hospitality</li>
+          <li>Multifamily</li>
+          <li>All Services</li>
+        </ul>
+      </div>
+      <div><h5 class="ms-5">Get In Touch</h5>
+         <ul>
+          <li>info@yourcompany.com</li>
+          <li>15Th Street Avenue, New York, USA</li>
+          <li>011-554-8798-6556</li>
+          <li>011-554-7798-6522</li>
+
+        </ul>
+      </div>
+      
+    </footer>
+     <hr class="container-xxl">
+    <div class="container-xxl d-flex justify-content-between p-4"><h6>© 2023 All rights reserved. Design by TemplatesJungle.</h6> <div><i class="fa-brands fa-square-facebook pe-5"></i><i class="fa-brands fa-twitter pe-5"></i><i class="fa-brands fa-youtube pe-5"></i><i class="fa-brands fa-linkedin pe-5"></i></div></div>
+
+    <!-- footer end -->
+
+
 
 
   <!-- script js -->
